@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexo Fronts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Thick Dark Transparent Line with Logo and Website Name -->
+    <div class="header-line">
+        <div class="logo-container">
+            <img src="logo.png" alt="Website Logo" class="logo"> <!-- Replace with your logo path -->
+            <span class="website-name">Stylish Text Generator</span>
+        </div>
+    </div>  
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1 class="stylish-text">Stylish Text Generator</h1>
+        <p class="subtext">Type your text below and see all stylish variations!</p>
+      
+        <!-- User Input Section -->
+        <div class="input-section">
+            <input type="text" id="userInput" placeholder="Enter your text here...">
+        </div>
+
+        <!-- Category Section -->
+        <div class="category-section" id="categorySection">
+            <!-- Categories will be dynamically generated here -->
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-section">
+            <div class="output-column">
+                <h3>Combined Emoji Text</h3>
+                <div id="combinedEmojiOutput"></div>
+            </div>
+            <div class="output-column">
+                <h3>Non-Combined Emoji Text</h3>
+                <div id="nonCombinedEmojiOutput"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
